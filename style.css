@@ -1,3 +1,11 @@
+@media (max-width: 768px) {
+    .home-content p,
+    .about-content p {
+        text-align: left;
+    }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -627,3 +635,4 @@ section {
     width: 52vw;
   }
 }
+
