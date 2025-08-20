@@ -344,7 +344,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 650px;
+    height: 600px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -503,7 +503,7 @@ section {
 
 .contact form .input-box input,
 .contact form textarea {
-  width: 50%;
+  width: 70%;
   padding: 2.5rem;
   font-size: 1.8rem;
   color: var(--text-color);
@@ -660,6 +660,7 @@ section {
     word-break: break-word;
   }
 }
+
 
 
 
