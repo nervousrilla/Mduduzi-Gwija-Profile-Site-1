@@ -502,10 +502,15 @@ section {
   resize: none;
 }
 
-/* ===== Footer (unchanged) ===== */
-.footer {
-  background-color: var(--second-bg-color);
-  padding: 50px 0;
+/* Footer */
+footer {
+    width: 100%;                 /* ✅ spans full width */
+    background: #0f0f0f;         /* same as before */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;          /* ✅ more spacing top & bottom */
+    font-size: 0.9rem;
+    margin-top: 40px;
 }
 
 .footer .social-icons {
@@ -629,4 +634,11 @@ section {
   .about-content p {
     text-align: left; /* ✅ prevent stretched justified text */
   }
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 0.85rem;
+        padding: 30px 15px;      /* ✅ still comfortable on small screens */
+    }
 }
