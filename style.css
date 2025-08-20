@@ -1,7 +1,16 @@
 @media (max-width: 768px) {
     .home-content p,
     .about-content p {
-        text-align: left;
+        text-align: left; /* This is your original fix, but let's add more */
+        word-spacing: normal; /* Resetting any word spacing */
+        line-height: 1.5em; /* Adjusting the space between lines */
+    }
+
+    /* Target the text in skills-info specifically for mobile */
+    .skills-info p {
+        text-align: left; /* You also have justified text here */
+        word-spacing: normal;
+        line-height: 1.5em;
     }
 }
 
@@ -635,4 +644,5 @@ section {
     width: 52vw;
   }
 }
+
 
