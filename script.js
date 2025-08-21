@@ -1,3 +1,4 @@
+// Read More toggle
 const readMoreBtn = document.getElementById("read-more-btn");
 const readMoreContent = document.querySelector(".read-more-content");
 
@@ -10,7 +11,6 @@ readMoreBtn.addEventListener("click", () => {
     readMoreBtn.textContent = "Read More";
   }
 });
-
 
 // Modal elements
 const modal = document.getElementById("work-modal");
@@ -42,7 +42,7 @@ modal.addEventListener("click", (e) => {
   }
 });
 
-// Mobile menu toggle (unchanged)
+// Mobile menu toggle
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -50,7 +50,3 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
 }
-
-
-
-
