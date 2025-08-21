@@ -50,3 +50,7 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
 }
+
+
+<script data-goatcounter="https://mduduzi-profile-website.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
