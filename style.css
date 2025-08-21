@@ -428,6 +428,13 @@ section {
   text-decoration: underline;
 }
 
+.modal-content .gradient-btn {
+  color: white !important;
+  text-decoration: none !important;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
 .close-btn {
   position: absolute;
   top: 15px;
